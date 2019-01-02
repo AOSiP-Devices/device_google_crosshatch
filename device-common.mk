@@ -108,6 +108,15 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.dumpstate@1.0-service.crosshatch
 
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext \
+    ims-ext-common \
+    qti-telephony-common
+
+ PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # whitelisted app
 PRODUCT_COPY_FILES += \
     device/google/crosshatch/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
