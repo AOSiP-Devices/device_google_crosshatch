@@ -1,8 +1,8 @@
 [
  {
-   "repository":  "DirtyUnicorns/android_device_google_crosshatch-sepolicy",
+   "repository":  "device_google_crosshatch-sepolicy",
    "target_path": "device/google/crosshatch-sepolicy",
-   "branch":      "p9x"
+   "branch":      "pie"
  },
  {
    "repository":  "DirtyUnicorns/android_kernel_google_bluecross",
