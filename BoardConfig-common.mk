@@ -165,6 +165,9 @@ BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
 # RenderScript
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
+# RIL
+CUSTOM_APNS_FILE := $(DEVICE_PATH)/apn/sprint.xml
+
 # Sensors
 USE_SENSOR_MULTI_HAL := true
 TARGET_SUPPORT_DIRECT_REPORT := true
