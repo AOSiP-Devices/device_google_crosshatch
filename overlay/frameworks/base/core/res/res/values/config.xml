@@ -421,6 +421,9 @@
          requirements -->
     <bool translatable="false" name="config_wifi_framework_enable_sar_tx_power_limit">true</bool>
 
+    <!-- Does device support ActiveEdge? -->
+    <bool name="config_hasActiveEdge">true</bool>
+
     <!-- Boolean indicating whether framework should use detection of softAP mode to set the tx
          power limit for meeting SAR requirements -->
     <bool translatable="false" name="config_wifi_framework_enable_soft_ap_sar_tx_power_limit">true</bool>
