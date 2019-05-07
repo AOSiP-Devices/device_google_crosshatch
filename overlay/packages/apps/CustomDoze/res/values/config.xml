@@ -29,6 +29,6 @@
     <bool name="hasDozeBrightnessSensor">true</bool>
 
     <!-- Disable CustomDoze options that are in system gesture settings -->
-    <bool name="has_tilt_sensor">false</bool>
+    <bool name="has_tilt_sensor">true</bool>
 
 </resources>
